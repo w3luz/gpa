@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0;
+    box-sizing: border-box; }
+
+body { width: 100vw; height: 100vh;
+       background-color: lightgray; 
+       display: flex; align-items: center; justify-content: center; }
+
+#index-main { width: 600px; height: 300px;
+              display: flex;align-items: center; justify-content: center; }
+
+#index-video { width: 200px; height: 200px;
+               background-color: white; }

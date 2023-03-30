@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden; }
+
+@font-face {
+    font-family: arialNarrow;
+    src: url("../fonts/arial.ttf") }
+
+body { width: 100vw;
+       background-color: lightgray; 
+       display: flex; align-items: center; justify-content: center; flex-direction: column;
+       position: relative; }
+
+.page-01 {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    display: flex; align-items: center; justify-content: center; 
+    margin: 0.8mm 0 0.8mm 0; }
+
+.page-02 {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0.8mm 0 0.8mm 0; }
+
+.h1_svg { fill: #000; font-size: 15%; font-weight: bold; font-family: arialNarrow; }
+.h2_svg { fill: #000; font-size: 11%; font-family: arialNarrow; }
+.h3_svg { fill: #000; font-size: 11%; font-family: arialNarrow; font-weight: bold; text-decoration: underline; }
+.h4_svg { fill: #A4A4A4; font-size: 8%; font-family: arialNarrow; font-weight: bold; }
+
+#sign { position: absolute; top: 71%; left: 20%; }
+
+#sign-pen { width: 7vw; height: 7vw;
+            background-color: forestgreen;
+            position: fixed; left: 81.2%; bottom: 5%;
+            border-radius: 4vw; }
